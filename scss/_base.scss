@@ -1,0 +1,59 @@
+/* ========== GLOBALS ========== */
+
+html {
+    color: #222;
+    font-size: 1em;
+    line-height: 1.4;
+}
+
+::-moz-selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+::selection {
+    background: #b3d4fc;
+    text-shadow: none;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+audio,
+canvas,
+img,
+svg,
+video {
+    vertical-align: middle;
+}
+
+fieldset {
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+textarea {
+    resize: vertical;
+}
+
+
+/* ========== BROWSE HAPPY PROMPT ========== */
+
+.browsehappy {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    background: #ccc;
+    color: #000;
+    border-bottom: 2px solid #ADADAD;
+    padding: 0.6em 0;
+    text-align: center;
+}
