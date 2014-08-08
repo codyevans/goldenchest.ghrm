@@ -1,5 +1,6 @@
 /* ========== HELPER CLASSES ========== */
 
+// visual display
 .hidden {
     display: none !important;
     visibility: hidden;
@@ -30,6 +31,8 @@
     visibility: hidden;
 }
 
+
+// clearfix
 .clearfix:before,
 .clearfix:after {
     content: " "; /* 1 */
@@ -39,3 +42,17 @@
 .clearfix:after {
     clear: both;
 }
+
+
+// position attributes
+.left {
+  float: left !important; }
+
+.right {
+  float: right !important; }
+
+
+// aliasing
+.antialiased {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
